@@ -5,13 +5,13 @@ A plugin for [Matomo](https://matomo.org/) to backfill goals.
 This Matomo plugins allows users to convert goals from stats of the past.
 For example: if you added new goals and want historical tracking data get converted into those goals to show up in the statistics.
 
-After installation it can be found here: Dashboard > Goals > Backfill Goals
-
 * only Regex Goals are supported right now
 * tested on Matomo version 4.15.1 with PHP 8.0.2
 
 ## Installation
 Download the complete code from this repository into a folder "BackfillGoals" (or download a release) and put this folder inside the "plugins" folder on your Matomo installation.
+
+After installation it can be found here: Dashboard > Goals > Backfill Goals
 
 ## Info
 The plugin would not exist if there wasn't this [issue on the Matomo repository](https://github.com/matomo-org/matomo/issues/6183) which was a good starting point for the rest of the code.
