@@ -1,4 +1,4 @@
-# MatomoBackfillGoalsPlugin [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=YLPY95NSDFH9G)
+# BackfillGoals plugin for Matomo [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=YLPY95NSDFH9G)
 A plugin for [Matomo](https://matomo.org/) to backfill goals.
 
 ## Description
