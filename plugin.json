@@ -1,0 +1,21 @@
+{
+    "name": "BackfillGoals",
+    "description": "Backfill Goal conversion data after creating a goal. Go to Dashboard > Goals > Backfill Goals",
+    "keywords": ["goals", "reports", "invalidate", "backfill"],
+    "version": "0.1.0",
+    "homepage": "https://www.vierachtdesign.com",
+    "license": "GPL v3+",
+    "authors": [
+        {
+            "name": "48DESIGN GmbH",
+            "homepage": "https://www.vierachtdesign.com"
+        }
+    ],
+    "dependencies": {
+        "Goals": "any"
+    },
+    "load_after": ["Goals"],
+    "require": {
+        "matomo": ">=4.0.0-b1,<5.0.0-b1"
+    }
+}
