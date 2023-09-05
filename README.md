@@ -8,9 +8,12 @@ For example: if you added new goals and want historical tracking data get conver
 After installation it can be found here: Dashboard > Goals > Backfill Goals
 
 * only Regex Goals are supported right now
+* tested on Matomo version 4.15.1 with PHP 8.0.2
 
 ## Info
 The plugin would not exist if there wasn't this [issue on the Matomo repository](https://github.com/matomo-org/matomo/issues/6183) which was a good starting point for the rest of the code.
+
+**Please make a backup of your data as of the time writing this the plugin is only tested on one single Matomo installation with a manageable number of websites.**
 
 ## Donation
 If this project helps you to update your Matomo statistics, you can sponsor us a cup of :coffee: - or two! :)
