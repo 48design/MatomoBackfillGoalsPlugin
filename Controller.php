@@ -88,7 +88,7 @@ class Controller extends \Piwik\Plugin\Controller
             // Execute the queries for each site ID
             foreach ($siteIds as $id) {
                 $stmt = $db->prepare($baseInsertQuery);
-                $stmt->bindParam(':siteId', $id, \PDO::PARAM_INT);
+                $stmt->bindParam(':siteId', $id, \PDO::PARAM_INT, 0);
                 $stmt->execute();
                 
                 // Store the query for debugging
